@@ -1,0 +1,174 @@
+# -------------------------------
+# Python-related files
+# -------------------------------
+__pycache__/                  # Cache directory for compiled Python files
+*.py[cod]                     # Compiled Python files
+*.pyo                         # Optimized Python files
+*.pyd                         # Windows DLLs created by Python
+*.pkl                         # Pickled files
+*.egg                         # Python egg files
+*.egg-info/                   # Metadata for Python projects
+*.pytest_cache/               # Cache directory created by pytest
+*.coverage                    # Code coverage reports
+.cache/                       # General cache directory
+.tox/                         # Virtualenvs for tox testing
+.build/                       # Build artifacts
+dist/                         # Distributions created by setuptools
+pip-wheel-metadata/           # Pip wheel metadata
+*.log                         # Log files
+logs/                         # Log directory
+*.sqlite3                     # SQLite database files
+.ipynb_checkpoints/           # Jupyter Notebook checkpoint files
+
+# -------------------------------
+# Conda/Environment-related files
+# -------------------------------
+*.conda                       # Conda package files
+*.condarc                     # Conda configuration files
+envs/                         # Conda virtual environment directories
+.venv/                        # Python virtual environments
+*.env                         # Environment variable files
+*.envrc                       # Shell environment files
+
+# -------------------------------
+# SQL and database artifacts
+# -------------------------------
+*.db                          # Database files
+*.sqlite                      # SQLite files
+*.sql-journal                 # SQLite journal files
+*.dump                        # SQL dump files
+
+# -------------------------------
+# VSCode-related files
+# -------------------------------
+.vscode/                      # Visual Studio Code workspace configuration
+*.code-workspace              # VSCode workspace files
+.history/                     # Extension-generated history files
+settings.json                 # Local settings
+workspaceStorage/             # Temporary workspace data
+sftp.json                     # Remote workspace files
+
+# -------------------------------
+# Apache Spark artifacts
+# -------------------------------
+*.crc                         # Checksum files for distributed file systems
+*.eventLog                    # Event logs for Spark jobs
+*_SUCCESS                     # Success markers in distributed file systems
+*.hadoop_version              # Hadoop version files
+*.hadoop_conf                 # Hadoop configuration files
+*.spark                       # Spark temporary files
+*.spark_conf                  # Spark-specific configurations
+*.spark_staging               # Spark staging directories
+
+# -------------------------------
+# Docker-related files
+# -------------------------------
+Dockerfile                    # Docker image build instructions
+*.dockerignore                # Patterns for files to exclude in Docker builds
+docker-compose.override.yml   # Optional override configurations for Docker Compose
+.docker/                      # Docker-related directories
+.docker-compose/              # Docker Compose generated files
+
+# -------------------------------
+# Linux and Mac-specific files
+# -------------------------------
+*.swp                         # Swap files for Linux editors (e.g., vim)
+*.swo                         # Swap files for Linux editors (alternative)
+.*.sw?                        # Additional swap files
+*.DS_Store                    # macOS file system metadata
+.nfs*                         # Temporary files from NFS
+.AppleDouble                  # macOS double resource fork
+.LSOverride                   # macOS launch services
+*.icloud                      # macOS iCloud cache
+.Spotlight-V100               # macOS spotlight indexing
+.Trashes                      # macOS trash directory
+*/Icon?                       # macOS icon files
+.DocumentRevisions-V100/      # macOS document revisions
+.fseventsd/                   # macOS file system events
+.TemporaryItems/              # Temporary items on macOS
+.apdisk                       # macOS Apple disk file
+
+# -------------------------------
+# Jupyter Notebook files
+# -------------------------------
+*.ipynb_checkpoints/          # Checkpoints for Jupyter Notebooks
+*.ipynb_protected/            # Protected notebook files
+
+# -------------------------------
+# Data-related files
+# -------------------------------
+*.csv                         # Raw CSV files
+*.parquet                     # Parquet data files
+*.orc                         # ORC data files
+*.avro                        # Avro data files
+*.json                        # JSON data files
+*.xml                         # XML data files
+*.zip                         # Compressed ZIP files
+*.gz                          # Compressed GZ files
+*.tar.gz                      # TAR.GZ files
+*.snappy                      # Snappy-compressed files
+*.h5                          # HDF5 data files
+*.arrow                       # Apache Arrow data files
+*.feather                     # Feather-format data files
+*.joblib                      # Joblib serialized files
+*.bin                         # Binary files
+*.pickle                      # Pickled data files
+
+# -------------------------------
+# Logs and temporary files
+# -------------------------------
+*.log                         # Log files
+*.out                         # Output files
+*.tmp                         # Temporary files
+*.bak                         # Backup files
+*.swp                         # Swap files
+*.swx                         # Alternative swap files
+*.backup                      # Backup files
+
+# -------------------------------
+# Node.js-related files (if applicable)
+# -------------------------------
+node_modules/                 # Dependencies for Node.js
+npm-debug.log*                # NPM debug logs
+yarn-debug.log*               # Yarn debug logs
+yarn-error.log*               # Yarn error logs
+
+# -------------------------------
+# PyCharm-related files (if applicable)
+# -------------------------------
+.idea/                        # PyCharm project files
+*.iml                         # Module files for PyCharm
+*.ipr                         # Project files for PyCharm
+*.iws                         # Workspace files for PyCharm
+
+# -------------------------------
+# Testing-related files
+# -------------------------------
+.coverage                     # Code coverage reports
+*.pytest_cache/               # pytest cache
+htmlcov/                      # HTML coverage reports
+nose2-*.log                   # nose2 logs
+nosetests.xml                 # Nose test results
+coverage.xml                  # Coverage results in XML format
+.cache/                       # General cache directories
+.tox/                         # tox environment directories
+
+# -------------------------------
+# Machine Learning artifacts
+# -------------------------------
+checkpoints/                  # Training checkpoints
+runs/                         # Model training runs
+*.ckpt                        # Checkpoint files
+*.onnx                        # ONNX model files
+*.pth                         # PyTorch model files
+*.hdf5                        # HDF5 model files
+
+# -------------------------------
+# Temporary files generated by editors or OS
+# -------------------------------
+Thumbs.db                     # Windows Explorer thumbnails
+~$*                           # Temporary Office files
+*.~lock.*                     # Lock files from Office apps
+~*.tmp                        # Temporary files
+desktop.ini                   # Windows desktop settings
+
